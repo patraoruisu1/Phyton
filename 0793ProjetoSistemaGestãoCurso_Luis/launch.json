@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Sistema de Gestão de Projetos",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/0793ProjetoSistemaGestãoCurso_Luis.py",
+            "console": "integratedTerminal",
+            "args": [],
+            "env": {
+                "PYTHONUNBUFFERED": "1"
+            },
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "showReturnValue": true
+        }
+    ]
+}
