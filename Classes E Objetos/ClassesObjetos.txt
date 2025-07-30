@@ -1,0 +1,18 @@
+CRIAÇÃO DE CLASSES:
+    Classes em Python são definidas com a palavra-chave 'class'. O método __init__ é o construtor.
+    
+    ATRIBUTOS PRIVADOS VS PÚBLICOS:
+    - Públicos: acessíveis diretamente (nome)
+    - Privados: convenção com _ (underscore) no início (_nome)
+    - Fortemente privados: __ (duplo underscore) ativa name mangling (__nome)
+    
+    HERANÇA:
+    Python suporta herança simples e múltipla. Use super() para chamar métodos da classe pai.
+    
+    MÉTODOS ESTÁTICOS:
+    - @staticmethod: não recebe self nem cls, funciona como função normal
+    - @classmethod: recebe cls como primeiro parâmetro
+    - Método de instância: recebe self como primeiro parâmetro
+    
+    PROPRIEDADES:
+    Use @property para criar getters/setters elegantes.

@@ -1,0 +1,19 @@
+ SERIALIZAÇÃO:
+    Processo de converter objetos Python em formato que pode ser armazenado ou transmitido.
+    
+    PICKLE:
+    - Formato binário específico do Python
+    - Pode serializar quase qualquer objeto Python
+    - Não é seguro para dados não confiáveis
+    - Não é compatível entre versões Python diferentes
+    
+    JSON:
+    - Formato texto, legível por humanos
+    - Padrão web, compatível entre linguagens
+    - Suporta apenas tipos básicos (dict, list, str, int, float, bool, None)
+    - Seguro para transmissão de dados
+    
+    XML:
+    - Formato estruturado, verboso
+    - Suporte nativo com xml.etree.ElementTree
+    - Útil para integração com sistemas legados

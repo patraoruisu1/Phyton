@@ -1,0 +1,16 @@
+COMPARAÇÃO EM CADEIA:
+    Python permite comparações em cadeia, onde múltiplas comparações podem ser feitas numa única expressão.
+    Isso é mais eficiente e legível que múltiplas condições com 'and'.
+
+
+    VALORES FALSY/TRUTHY:
+    Python considera determinados valores como False em contextos booleanos:
+    - False, None, 0, 0.0, '', [], {}, set()
+    Todos os outros valores são considerados True.
+    OPERADOR TERNÁRIO:
+    Python tem uma forma condensada de if-else: valor_se_true if condição else valor_se_false
+    PALAVRA-CHAVE 'IN':
+    Usada para verificar pertença em sequências, muito mais eficiente que loops manuais.    FORMATAÇÃO DE STRINGS:
+    f-strings (f"") são a forma mais moderna e eficiente de formatar strings em Python 3.6+.
+    EXPRESSÕES LAMBDA:
+    Funções anônimas de uma linha, úteis para operações simples em map(), filter(), sort().
